@@ -1,0 +1,8 @@
+Visualise data simultaneously recorded with gps logger (https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en) and activity reminder (https://play.google.com/store/apps/details?id=timo.home.activityMonitor&hl=en) Android apps.
+
+GPSLogger needs to be set to Log to Plain Text, to Keep GPS on between fixes, to keep logging (take off not logging if not moving), and logging interval 1 (1 sample per second).
+
+Once you've logged a session, copy both files to a subfolder in ./data folder for the script to visualise the result. I've included a sample session in the ./data/20161210 where I went for a ~20 min jog. I did 6 15 s sprints along the way (every 45 s and I had a longer recovery prior to the last), which can be seen in the velocity but not in the mean amplitude deviations (MAD [g]). This is because the accelerometer on my phone has only a range of +- 2 gs and thus maxes out at very low jogging velocities.
+
+Released into the public domain with the CC0 licence (https://wiki.creativecommons.org/wiki/CC0). Written by Timo Rantalainen 2016 tjrantal at gmail dot com.
+
